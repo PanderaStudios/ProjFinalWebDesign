@@ -3,10 +3,11 @@
 @charset"UTF-8";
 body
 {
-    background-color: LightSkyBlue;
+    background-color: lightpink;
     font-family: "Arial";
-    background-image:url("imagens/sa_flash.png");
-    background-size:110%;
+    background-image:url("imagens/sa_superior.png");
+    background-size:1200px 1400px;
+    background-repeat:no-repeat;
 
 }
 div#interface
@@ -43,7 +44,7 @@ header#cabecalho nav#menu ul
 header#cabecalho nav#menu li
 {
     display: inline;
-    background-color: #2f8dff;
+    background-color: fuchsia;
     color: white;
     position: relative;
     padding: 10px;
