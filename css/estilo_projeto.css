@@ -6,7 +6,7 @@ body
     background-color: lightpink;
     font-family: "Arial";
     background-image:url("../imagens/sa_superior.png");
-    background-size:1200px 1400px;
+    background-size:1600px 1400px;
     background-repeat:no-repeat;
 
 }
@@ -81,9 +81,11 @@ div#interface header#cabecalho
 }
 div#interface figure.figura-legenda
 {
-    border: 5px solid;
+    border: 5px solid blue;
     box-shadow: 1px 1px 4px black;
     position: relative;
+    width: 40%;
+    height: 40%;
 }
 div#interface figure.figura-legenda img
 {
