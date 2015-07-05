@@ -134,3 +134,50 @@ footer#rodape{
 footer#rodape p{
     text-align:center;
 }
+
+div#tvSandra{
+    display:block;
+    width:550px;
+    float:left;
+    padding-right: 20px;
+}
+div#tvSandra video#filme{
+    position:relative;
+    top: 30px;
+    left:15px;
+    width:60%;
+    height:60%;	
+}
+
+#sa_bottom_flash {
+	position:relative;
+	width:198px;
+	height:198px;
+	z-index:4;
+	left: 27px;
+	top: -10px;
+	border: 1px dotted #838fc1;
+}
+#sa_bottom_flash_noborder {
+	position:relative;
+	width:198px;
+	height:198px;
+	z-index:4;
+	left: 20px;
+	top: -77px;
+	border: 0;
+}
+
+#sa_flash {
+	position:relative;
+	width:198px;
+	height:198px;
+	z-index:9;
+	left: 30px;
+	top: 5px;
+	background-image:url(imagens/sa_flash.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	border: 0;
+}
+
